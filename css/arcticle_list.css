@@ -1,0 +1,57 @@
+div.home_arcticle{
+    margin:30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+ul.home_show>li{
+    padding:30px 20px;
+    border-bottom: 1px solid #949494;
+}
+ul.home_show>li .title{
+    margin-bottom:20px;
+}
+ul.home_show>li.page{
+    padding:0px;
+    border:0px;
+    position:relative ;
+    margin-top:20px;
+    left:470px;
+}
+ul.home_show>li.page>a{
+    display: inline-block;
+    height:30px;
+    padding:0px 10px;
+    line-height: 30px;
+    margin-left:10px;
+    border:1px solid #fe5273;
+}
+ul.home_show>li.page>a:hover{
+    background: #fe5273;
+    color:#bce8f1;
+}
+/*//当前页标签*/
+a.now_page{
+    background: #fe5273;
+    color:#bce8f1;
+}
+a.zan,a.comments{
+    display:inline-block;
+    width:85px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top:30px;
+}
+a.zan{
+    background: #fe5273;
+    color:#fff;
+    margin-left:560px;
+    background: #fe5273 url(../Public/home/images/heart_baix.png) no-repeat 8px center;
+    padding-left:12px;
+    display: inline-block;
+    /*width:30px;*/
+}
+a.comments{
+    color:deepskyblue;
+}

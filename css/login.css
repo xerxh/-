@@ -1,0 +1,38 @@
+div.main{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    background-image: url(../bj.png);
+    text-align:center;
+}
+table{
+    margin-left: 53px;
+}
+table tr{
+   height:50px;
+}
+table input{
+    height:25px;
+}
+div.register{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../juyuan.png);
+    width: 440px;
+    height: 446px;
+    padding-top:40px;
+}
+button.zhuce{
+    margin-top:60px;
+    width: 159px;
+    height: 48px;
+    font-size: 24px;
+    margin-left:-20px;
+    color: red;
+    border: none;
+    background:blanchedalmond;
+    letter-spacing:5px;
+    border:1px solid #000;
+}

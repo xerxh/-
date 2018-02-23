@@ -1,0 +1,12 @@
+2,017-12-15 0:20:25 19,908:	log start!build Date: Jul  7 2016  08:18:15
+2,017-12-15 0:20:25 19,908:	cmd line ="D:\Game\MatOnline\MATRepair.exe" -car
+2,017-12-15 0:20:25 19,908:	zai wangba = 0
+2,017-12-15 0:20:25 19,908:	zai rar = 0
+2,017-12-15 0:20:25 19,908:	url base=http://mat.repair.kingsoft.com/mat_repair/
+2,017-12-15 0:20:25 19,908:	XML Path = http://mat.repair.kingsoft.com/mat_repair/RepairEntry/RepairEntry.xml
+2,017-12-15 0:20:25 19,908:	=======================begin down url=http://mat.repair.kingsoft.com/mat_repair/RepairEntry/RepairEntry.xmlmathashTZwpxu7A
+2,017-12-15 0:20:26 19,908:	CurlDwonMemeEx ret [D Ret 0][DSize Ret=0,val=124198][RCode Ret=0,val=200],old buf len=0,new buf len=124198
+2,017-12-15 0:20:26 19,908:	CurlDwonMemeEx OK.[D Ret 0][DSize Ret=0,val=124198][RCode Ret=0,val=200],old buf len=0,new buf len=124198
+2,017-12-15 0:20:26 19,908:	=======================end down url=http://mat.repair.kingsoft.com/mat_repair/RepairEntry/RepairEntry.xmlmathashTZwpxu7A
+2,017-12-15 0:20:26 19,908:	xml md5=3863896B7B0B4D588292757CC35BD2AC
+2,017-12-15 0:20:26 19,908:	GetNeedRepairFiles,CheckMD5 = 0

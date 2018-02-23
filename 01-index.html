@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>杏猫网</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.wysiwyg.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+    <!-- login 和 导航栏 -->
+    <header id="header">
+    </header>
+    <!-- 主体部分 -->
+	<ul class="side-nav">
+			<li><a data-floor="f1"href="#">古风 · 汉服</a></li>
+			<li><a data-floor="f2" href="#">图片榜单</a></li>
+			<li><a data-floor="f3" href="#">创作榜单</a></li>
+			<li><a data-floor="f4" href="#">音乐榜单</a></li>
+			<li><a data-floor="f5" href="#">ACG</a></li>
+			<!--<li><a data-floor="f6" href="">专题推荐</a></li>-->
+	</ul>
+    <div class="main">
+      <div id="banner">
+        <div class="stage">
+          <div class="banner-img">
+
+          </div>
+        </div>
+
+        <div class="banner-content">
+
+        </div>
+      </div>
+      <!-- 古风汉服  content-cos -->
+      <div id="f1" class="content-cos">
+        <div class="content-cos-left">
+          <div class="cos">
+            <p class="title">古风 · 汉服</p>
+
+          </div>
+          <div class="cos-TV">
+            <p class="title">古风 · 电视剧</p>
+
+          </div>
+        </div>
+        <div class="content-cos-right">
+          <div data-rank="rank" class="cos-TV">
+            <p class="cos-rank">
+              <b>排行榜</b>
+              <a  href="#">更多</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- 图片榜单 content-imgList-->
+      <div id="f2" class="content-imgList">
+        <p>
+          <span class="title">图片榜单</span>
+          <a href="#">更多</a>
+        </p>
+        <div data-picture="picture" class="content_box">
+
+        </div>
+      </div>
+      <!-- 创作榜单 content-creatList-->
+      <div id="f3" class="content-imgList">
+        <p>
+          <span class="title">创作榜单</span>
+          <a href="#">更多</a>
+        </p>
+        <div data-create="create" class="content_box ">
+
+        </div>
+      </div>
+      <!-- 古风音乐 music-->
+      <div id="f4" class="content-imgList">
+        <p>
+          <span class="title">古风音乐</span>
+          <a href="#">更多</a>
+        </p>
+        <div data-music="music" class="content_box">
+
+        </div>
+      </div>
+      <!-- ACG -->
+      <div id="f5" class="content-cos">
+        <div class="content-cos-left">
+          <div   data-acg="acg" class="cos">
+            <p class="title">ACG</p>
+
+          </div>
+          <div data-acg="acg_tv"class="cos-TV">
+            <p class="title">ACG最新资讯</p>
+
+          </div>
+        </div>
+        <div data-rank="rank" class="content-cos-right">
+          <div class="cos-TV">
+            <p class="cos-rank">
+              <b>排行榜</b>
+              <a  href="#">更多</a>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- 专题推荐 -->
+      <div id="f6" class="content-imgList">
+        <p>
+          <span class="title">专题推荐</span>
+          <a href="#">更多</a>
+        </p>
+        <div class="content_box">
+          <ul class="content_footer_imgbox" >
+            <li>
+              <div class="content_imglist_box">
+                <a href="01_article_show.html?tid=1">
+                  <img src="Upload/banner/20160505/146242775748781.jpg" alt="">
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="content_imglist_box">
+                <a href="01_article_show.html?tid=4">
+                  <img src="Upload/banner/20160505/146242739242310.jpg" alt="">
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="content_imglist_box">
+                <a href="01_article_show.html?tid=14">
+                  <img src="Upload/banner/20160505/146242409385640.jpg" alt="">
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="content_imglist_box">
+                <a href="01_article_show.html?tid=8">
+                  <img src="Upload/banner/20160505/146242325725070.jpg" alt="">
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 页面底部 footer  -->
+    <footer id="footer">
+
+    </footer>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.wysiwyg.js"></script>
+    <script src="js/wysiwyg.image.js"></script>
+    <script src="js/wysiwyg.link.js"></script>
+    <script src="js/wysiwyg.table.js"></script>
+    <script src="js/footer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+p,h1,h2,h3,h5,h6,h6,ul,ol,dl,dd{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+body{
+  margin:0;
+  padding:0;
+  background-color:#F8F8F8;
+  font-size:14px;
+  font-family:"Microsoft YaHei";
+}
+div.main{
+  width:1200px;
+  margin:0 auto;
+}
+img{
+  vertical-align:middle;
+}
+img:hover{
+  opacity:0.8;
+  filter:alpha(opacity=0.8);
+}
+a{
+  color:#666;
+  text-decoration:none;
+}
+a:hover{
+  color:#0aa1ed;
+}
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.lf{float:left;}
+.rt{float:right;}
+.box{
+  display: flex;
+  justify-content: space-between;
+}

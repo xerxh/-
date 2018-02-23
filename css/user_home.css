@@ -1,0 +1,156 @@
+/*��ҳͷ��*/
+div.user_show{
+    display: flex;
+    justify-content:flex-start;
+    width:278px;
+    height:111px;
+    margin:50px 45% ;
+}
+div.user_photo>img{
+    width: 81px;
+    height:81px;
+    border-radius: 50%;
+    margin-right:25px;
+}
+div.user_name span{
+   margin-right:5px;
+}
+div.user_name a.btn{
+    display: block;
+    width:85px;
+    height:24px;
+    line-height: 24px;
+    color:#fff;
+    background: #fe5273;
+    text-align: center;
+    border-radius: 5px;
+    margin-top:70px;
+}
+/*��ҳ����*/
+p.home_nav{
+    display: flex;
+    justify-content: space-between;
+}
+p.home_nav>a{
+    display: block;
+    width:300px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fe5273;
+}
+p.home_nav a.home_nav1{
+    color: #fff;
+    background:#fe5273
+    url(../Public/home/images/nav_bai.png)
+    no-repeat 106px center;
+}
+p.home_nav a.home_nav2{
+    background: url(../Public/home/images/heart.png) no-repeat 106px center;
+}
+p.home_nav a.nav2{
+	color: #fff;
+	background:#fe5273
+    background: url(../Public/home/images/heart.png) no-repeat 106px center;
+}
+p.home_nav a.home_nav3{
+    background: url(../Public/home/images/user.png) no-repeat 106px center
+}
+p.home_nav a.nav3{
+		color: #fff;
+	background:#fe5273
+    background: url(../Public/home/images/user.png) no-repeat 106px center
+}
+p.home_nav a.home_nav4{
+    background: url(../Public/home/images/users.png) no-repeat 106px center;
+}
+p.home_nav a.nav4{
+		color: #fff;
+	background:#fe5273
+    background: url(../Public/home/images/users.png) no-repeat 106px center;
+}
+/*��ҳ����չʾ*/
+div.home_arcticle{
+    margin:30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/*ul.home_show{*/
+    /*height:605px;*/
+/*}*/
+ul.home_show>li{
+    width:801px;
+    padding:30px 0px;
+    border-bottom: 1px solid #949494;
+}
+ul.home_show>li.page{
+    padding:0px;
+    border:0px;
+    position:relative ;
+    margin-top:20px;
+    left:470px;
+}
+ul.home_show>li.page>a{
+    display: inline-block;
+    height:30px;
+    padding:0px 10px;
+    line-height: 30px;
+    margin-left:10px;
+    border:1px solid #fe5273;
+}
+ul.home_show>li.page>a:hover{
+    background: #fe5273;
+    color:#bce8f1;
+}
+/*//当前页标签*/
+a.now_page{
+    background: #fe5273;
+    color:#bce8f1;
+}
+a.zan,a.comments{
+    display:inline-block;
+    width:85px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top:30px;
+}
+a.zan{
+    background: #fe5273;
+    color:#fff;
+    margin-left:560px;
+    background: #fe5273 url(../Public/home/images/heart_baix.png) no-repeat 8px center;
+    padding-left:12px;
+    display: inline-block;
+    /*width:30px;*/
+}
+a.comments{
+    color:deepskyblue;
+}
+/*//����������*/
+div.home_pic{
+    width:360px;
+    height:360px;
+}
+div.home_pic>p:first-child{
+    background:url(../Public/home/images/ren.png) no-repeat 10px center;
+    padding-left:30px;
+    font-size: 18px;
+    margin-top:30px;
+}
+ul.look{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul.look>li{
+    text-align: center;
+    margin:20px 10px;
+}
+ul.look img{
+    width:86px;
+    height:86px;
+    border-radius: 50%;
+}
+

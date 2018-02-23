@@ -1,0 +1,31 @@
+#footer{
+  width:1200px;
+  margin:0 auto;
+}
+#footer div.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top:20px;
+}
+div.footer-left{width:521px;}
+div.footer-right{width:666px;}
+div.footer-left>p{
+  display: flex;
+  justify-content: space-between;
+  margin:15px 0;
+}
+div.footer-right{
+  display: flex;
+  justify-content: space-between;
+}
+div.footer-right>span{
+  text-align: center;
+  margin-left:20px;
+  position:relative;
+}
+div.footer-right>span>span{
+  width:60px;
+  position: absolute;
+  top:15px;
+  left:30px;
+}

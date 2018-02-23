@@ -1,0 +1,147 @@
+
+/*********文章 头部*********/
+h3.article-title{
+  font-size: 24px;
+  width:925px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  margin-left:10px;
+}
+div.user{
+  /*margin-top: 30px;*/
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2db2ea;
+  margin:40px 20px;
+  padding-bottom: 50px;
+}
+p.tag-list>a:hover{
+  color:#F8F8F8;
+  background: #2db2ea;
+}
+p.tag-list>a{
+  height:22px;
+  line-height: 22px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  padding:0 5px;
+  /*width:40px;*/
+  border: 1px solid #2db2ea;
+  border-radius: 5px;
+  color:#2db2ea;
+  margin-left:20px;
+}
+/*******作者头像**************/
+div.author{
+  display: flex;
+  justify-content: flex-start;
+}
+div.author img:first-child{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+div.author div:nth-child(2){
+    margin-left:20px;
+}
+div.author div:nth-child(2)>p{
+  margin-top: 10px;
+  color:#999999;
+  display: flex;
+  justify-content: flex-start;
+}
+div.author div:nth-child(2)>p>span{
+  margin:0 5px;
+}
+a.author-name{
+  color:#000;
+}
+a.author-name+img{
+  width:18px;
+  height:23px;
+  margin-left:5px;
+}
+/*******文章内容**********/
+div.article-content{
+  margin: 0 20px;
+  font-size: 16px;
+  color:#333333;
+  line-height: 30px;
+}
+div.article-content img{
+  width:468px;
+}
+p.show-pic{
+  padding-top: 50px;
+  text-align: center;
+}
+/*******文章下部**********/
+p.article-footer{
+  text-align: center;
+}
+/***********喜欢***************/
+div.like{
+  text-align: center;
+  margin-top:50px;
+}
+div.like>span{
+  display:block;
+  font-size:30px;
+  color:#fe5273;
+}
+p.time{
+  margin-top:300px;
+  display: flex;
+  justify-content: flex-start;
+  color:#999999;
+  margin-bottom:30px;
+}
+p.time>span,p.time>i,p.time>b{
+  margin-left:20px;
+  font-style: normal;
+}
+/*************评论区********************/
+div.comment{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  flex-wrap: wrap;
+  padding:0 20px;
+  margin-bottom: 50px;
+}
+div.comment ul{
+  width:100%;
+}
+div.comment ul>li{
+  margin-bottom: 20px;
+  /*padding-bottom: 25px;*/
+  border-bottom: 1px solid #fe5273;
+}
+div.comment ul>li>img{
+  width:55px;
+  height:55px;
+  border-radius: 50%;
+  margin-right:20px;
+  margin-bottom: 20px;
+}
+div.comment p{
+  line-height: 60px;
+  margin-left:70px;
+  width:100%;
+}
+/********提交按钮***********/
+input.btn{
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background: #fe5273;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  margin-left: 800px;
+  margin-top: 20px;
+  border:0;
+}

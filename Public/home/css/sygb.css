@@ -1,0 +1,229 @@
+
+/*首页改版*/
+@media(min-width:1360px){
+	
+   .jqcs_bt{    height: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: #ddd dashed 1px;
+    padding-bottom: 10px;
+    overflow: hidden;
+} 
+   .jqcs_bt span a {
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+}
+   .jqcs_nr{
+	height:60px;
+    font-size: 14px;
+    padding-top: 1%;
+	overflow: hidden;
+}
+   .jqcs_gd a {
+    float: right;
+    width: 52px;
+    height: 22px;
+    display: block;
+    border: 1px solid #666;
+    border-radius: 5px;
+    line-height: 22px;
+    text-align: center;
+}
+.jqcsgfdsj_box ul li {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.jqcsgfdsj_box  ul .li_style1 {
+    width: 100%;
+    height: 65px;
+}
+.jqcsgfdsj_box ul li .txt {
+	float: left;
+    margin-left: 5px;
+    width: 155px;
+    height: 65px;
+}
+.jqcsgfdsj_box  ul li .txt a {
+    color: #000;
+	font-size: 16px;
+}
+.jqcsgfdsj_box ul li .txt_dsj {
+	float: left;
+    margin-left: 5px;
+    width: 252px;
+    height: 25px;
+}
+.jqcsgfdsj_box ul li .txt_dsj a {
+    color: #000;
+	font-size: 16px;
+}
+	}
+@media(max-width:1360px){
+	.jqcs_bt{height: 15px;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: #ddd dashed 1px;
+    padding-bottom:5px;
+    overflow: hidden;
+}
+  .jqcs_bt span a {
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;
+}
+	.jqcs_nr{
+	height:35px;
+    font-size: 14px;
+    padding-top: 1%;
+	overflow: hidden;
+}
+   .jqcs_gd a {
+    float: right;
+    width: 52px;
+    height: 16px;
+    display: block;
+    border: 1px solid #666;
+    border-radius: 5px;
+    line-height: 16px;
+    text-align: center;
+	margin-top:2px;
+}
+.jqcsgfdsj_box ul li {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    position: relative;
+}
+	.jqcsgfdsj_box  ul .li_style1 {
+    width: 100%;
+    height:30px;
+}
+    .jqcsgfdsj_box ul .li_style1 .pic {
+    width: 50px;
+    height: 30px;
+}
+.jqcsgfdsj_box ul li .txt {
+	float: left;
+    margin-left: 5px;
+    width: 127px;
+    height:30px;
+    overflow: hidden;
+}
+.jqcsgfdsj_box  ul li .txt a {
+    color: #000;
+	font-size: 13px;
+}
+.jqcsgfdsj_box ul li .txt_dsj {
+	float: left;
+    margin-left: 5px;
+    width:183px;
+    height: 25px;
+    overflow: hidden;
+}
+.jqcsgfdsj_box ul li .txt_dsj a {
+    color: #000;
+	font-size: 13px;
+}
+}
+.jqcs_part_title {
+	float:left;
+	width:65%;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    color: #000;
+}
+.jqgfdsj{
+	margin-left: 1%;
+    float: left;
+    width: 34%;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    color: #000;
+}
+.jqcs{float: left;
+    position: relative;
+    width:65%;
+    padding-bottom: 1%;
+}
+.jqcs1{
+	padding-top: 0.3%;
+    float: left;
+    width:100%;
+    margin-bottom: 1%;
+	}
+.jqcs1_left{
+        margin-left: 35%;
+	}
+.jqcs1_left ul li{list-style:none;padding-left: 5px;
+}
+.jqcsgfdsj {
+    float: left;
+    position: relative;
+    width:34%;
+	margin-left:1%;
+    padding-bottom: 1%;
+}
+.jqcsgfdsj_box{width:100%;
+    height: 270px;}
+
+.jqcsgfdsj_box  ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.jqcsgfdsj_box  li {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.jqcsgfdsj_box ul .li_style1 .pic {
+	float: left;
+    margin-left: 5px;
+	border-radius: 5px;
+    overflow: hidden;
+}
+
+.jqcsgfdsj_box ul .li_style2 {
+    width: 100%;
+    height: 20px;
+}
+.jqcsgfdsj_box ul .li_style1 .pic img {
+	float: left;
+    width: 105px;
+    height: 65px;
+}
+.jqcsgfdsj_box ul .li_style1 .number {
+    background: url(../images/num.png) 0px -48px no-repeat;
+}
+
+.jqcsgfdsj_box ul li .number {
+	float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.jqcsgfdsj_box ul .li_style2 .number {
+    background: url(../images/num.png) 0px -27px no-repeat;
+}
+
+
